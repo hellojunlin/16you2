@@ -1,0 +1,97 @@
+.header{
+    background: #424f63;
+}
+.col-md-12.top-header {
+    padding: 20px 0px;
+}
+.headerright {
+    margin-top: 20px;
+}
+.head-img {
+    width: 150px !important;
+}
+.head-img img{
+	border-radius:50%;
+	width: 120px;
+    height: 120px;
+}
+input.inputfile {
+    position: absolute;
+    width: 120px;
+    overflow: hidden;
+    height: 120px;
+    opacity: 0;
+    z-index: 2;
+}
+.editheadbox {
+    display: none;
+    width: 120px;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 60px;
+    border-radius: 0px 0px 100px 100px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.staffnamebox {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+.stabox{
+	margin-top:20px;
+}
+.titlebox1{
+	padding:15px 0px;
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+span.titletxt {
+    font-size: 18px;
+    font-weight: 800;
+}
+.editbtn,.pwdbtn{
+    border: none;
+    background: #009dda;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 800;
+    padding: 5px;
+}
+.editinfobox {
+    margin-top: 10px;
+}
+button#pwdbutton {
+    margin-left: 20px;
+    background: #ffc107;
+}
+.ebox{
+    padding-top: 7px;
+}
+.panel-body.container {
+    margin-bottom: 30px;
+}
+div#footer {
+    text-align: center;
+    background: #eee;
+    padding: 15px 0px;
+}
+.errcircle{
+	color:#ff0000;	
+}
+.tip{
+	padding-top:7px;
+	color:#ff0000;
+}
+.address {
+	padding-left:0px !important;
+	margin-top:5px;
+	display: inline-block;
+}
+.province,.city,.county{
+    display: inline-block;
+}

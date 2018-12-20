@@ -1,0 +1,74 @@
+/*公共样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	color: #000;
+/*    background-color: #f7f7f7;*/
+    background: #f0eff5;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 苹方;
+    font-size: 16px;
+    min-width: 320px;
+    max-width: 640px;
+}
+.cl{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+.bg_white{
+    background-color: #fff;
+}
+img{
+    max-width: 100%;
+    border: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+i{
+    font-style: normal;
+}
+.Past_rankings{
+    padding: 0 0.1rem;
+}
+.details{
+    background: #fff;
+    padding: 0.2rem;
+    background: #fff;
+    border-radius: 3px;
+    border: .5px solid #e1e1e1;
+    padding: 10px 0;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+.list{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #fcd134;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+.rankDer li{
+    padding: 10px 10px 0;
+    line-height: 14px;
+    font-size: 13px;
+}
+.pastFontsize{
+    color: #000;
+}
+.pastRank{
+    font-size: 13px;
+    color: #666;
+    display: inline-block;
+}

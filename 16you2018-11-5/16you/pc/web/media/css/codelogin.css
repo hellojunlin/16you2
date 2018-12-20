@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body {
+    color: #000;
+    position: relative;
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 0.24rem;
+    background-color: #f0eff5;
+    font-family: 苹方; 
+}
+img {
+    border: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+.bg_f {
+    background: #fff;
+}
+.relation_txt {
+    font-size: 0.3rem;
+    padding: 0.2rem 0 0;
+    color: #333;
+    text-align: center;
+}
+.relation_ewm em {
+    width:3.8rem;
+    height:3.8rem;
+    display: block;
+    margin: 0.1rem auto;
+}
+.relation_ewm span {
+    font-size: 0.24rem;
+    color: #333;
+    text-align: center;
+    display: block;
+    padding-bottom: 0.1rem;
+}
+.relation_img {
+    margin:0 0.2rem;;
+}
+.img_end{
+    padding-bottom: 1rem;
+}

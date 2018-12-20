@@ -1,0 +1,309 @@
+body{
+	background-color: #fff;
+}
+.integralbox{
+	position: relative;
+	padding:0.2rem 0.15rem;
+	border-bottom: 1px solid #eee;
+}
+.integralspan{
+	display:inline-block;
+	vertical-align: middle;
+	width:0.45rem;
+	height:0.45rem;
+	margin-right: 0.1rem;
+}
+.integralimg{
+	width: 100%;
+	height: 100%;
+}
+.myintegral{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.26rem;
+}
+.task{
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: 0.17rem;
+	right: 0.17rem;
+	color: #ffa509;
+	border:1px solid #ffa509;
+	border-radius: 4px;
+	padding: 0.05rem 0.1rem;
+}
+.tabul,.noticeul,.goods-ul,.exchangeul,.goodsbox,.record_tab_ul,.gaintype{
+	font-size: 0;
+}
+.tabul li{
+   width: 33.3%;
+   display: inline-block;
+   font-size: 0.26rem;
+   text-align: center;
+   padding: 0.2rem 0;
+}
+.tab_on{
+	color: #fff;
+	background: #ffa509;
+}
+.noticeul{
+	padding: 0.17rem 0.15rem;
+}
+.noticeul li,.goods-ul li,.exchangeul li,.record_tab_ul li,.gaintype li{
+  font-size: 0.24rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.notice{
+	background: #eee;
+	padding: 0.15rem;
+	font-size: 0;
+}
+.n_img,.detailbox{
+  display: inline-block;
+  vertical-align: middle;
+}
+.detailbox{
+	width: 90%;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+}
+.n_img{
+	width:10%;
+	height: 0.32rem;
+}
+.n_img img{
+	width: 0.32rem;
+	height: 0.32rem;
+}
+.username{
+	color: #f50;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	max-width:50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.purchase{
+	display: inline-block;
+	vertical-align: middle;
+}
+.goodslist{
+	display: inline-block;
+	width: 50%;
+	font-size: 0.24rem;
+	margin-top: 0.17rem;
+}
+.goodslistbox{
+	width:86%;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	margin: auto;
+	padding: 0.05rem 0.1rem;
+}
+.goodsimg{
+	width: 100%;
+	height: 1.4rem;
+}
+.priceli{ 
+	width: 60%;
+	text-align: left;
+}
+.buyli{
+	width: 40%;
+	text-align: right;
+}
+.buybtn{
+	display: inline-block;
+	border:1px solid #ffa509;
+	color:#ffa509;
+	border-radius: 4px; 
+	padding: 0.05rem 0.1rem;
+}
+.rulesbox{
+	margin: 0.2rem 0.15rem 0;
+	padding: 0.17rem;
+	border: 1px solid #eee;
+}
+.rulesbox h3{
+	padding-bottom: 0.1rem;
+}
+.rulesbox p{
+	line-height: 0.45rem;
+}
+/**--积分兑换--**/
+.exchangelist {
+    border-bottom: 1px solid #eee;
+    padding: 0.1rem 0.15rem;
+}
+.ex_img{
+	width:20%; 
+}
+.ex_img img{
+	width: 100%;
+	height: 1.3rem;
+}
+.ex_info{
+	width: 62%;
+	padding:0.1rem 0;
+	margin-left: 3%;
+}
+.ex_button{
+	width: 15%;
+	text-align: right;
+}
+.exbtn{
+	color: #ffa509;
+	border: 1px solid #ffa509;
+    border-radius: 4px;
+    padding: 0.05rem 0.1rem;
+}
+.hadexchange{
+	color: #fff;
+    background: #999;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 0.05rem 0.1rem;
+}
+.record_tab_ul li{
+	width: 50%;
+	text-align: center;
+	font-size: 0.26rem;
+	padding: 0.1rem 0;
+}
+.record_tab_on{
+	color: #ffa509;
+	border-bottom: 1px solid #ffa509;
+}
+.record_tabcon{
+	padding: 0.15rem;
+}
+.gaintype{
+	border-bottom: 1px solid #eee;
+	padding:0.15rem 0;
+}
+.gaintype li{
+	width: 50%;
+}
+.pur_ex{
+	border-bottom: 1px solid #eee;
+	padding:0.15rem 0;
+}
+.gaintype li h4,.pur_ex h4{
+	font-size: 0.26rem;
+}
+li.gainintegral{
+	text-align: right;
+	color: #ffa509;
+	font-size: 0.26rem;
+}
+.gaintime{
+	color: #999;
+	padding-top: 0.06rem;
+}
+.exchangecon,.recordcon{
+	display: none;
+}
+.discountmodal,.exchangemodal{
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+}
+.exchangemodal{
+	display: none;
+}
+.discountbox,.exchangemodalbox{
+	width: 70%;
+	margin:2.2rem auto 0;
+	border-radius:10px;
+	background: #fff;
+	position: relative;
+	text-align: center;
+	color: #ffa509;
+	padding:0.2rem 0.15rem;
+}
+.exchangemodalbox{
+	width: 75%;
+	margin:35% auto 0;
+	padding:0.2rem 0 0;
+}
+.discountbox h4{
+	font-size: 0.28rem;
+}
+.surebtn{
+	cursor: pointer;
+	border: 1px solid #ffa509;
+    color: #ffa509;
+    padding: 0.15rem;
+    display: inline-block;
+    width: 40%;
+    border-radius: 4px;
+    font-size: 0.26rem;
+}
+.colsediscount,.colseexchange{
+	position: absolute;
+	top: 0.15rem;
+	right: 0.15rem;
+	width: 0.3rem;
+	cursor:pointer;
+}
+.goodsshow{
+	width: 50%;
+}
+.goodsname{
+	padding: 0.2rem 0;
+}
+.discount-tips{
+	padding: 0.6rem 0;
+	font-size: 0.26rem;
+}
+.active_num a {
+    display: block;
+    width: 60%;
+    text-decoration: none;
+    padding: 0.17rem 0;
+    margin: 0.17rem auto 0;
+    border: 1px solid #f50;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+    color: #f50;
+}
+.ex-tips{
+	font-size: 0.24rem;
+    font-weight: normal;
+    padding: 0.17rem 0 0.1rem;
+    color: #333;
+}
+.ex-tips img{
+	width: 0.1rem;
+}
+.exchange_btn {
+    background-color: #ffa509;
+    margin-top: 0.1rem;
+    border-radius: 0 0 10px 10px;
+}
+.exchange_btn a {
+    color: #fff;
+    display: block;
+    padding: 0.2rem;
+    font-size: 0.26rem;
+}
+.norecord{
+	text-align: center;
+}
+.norecord img{
+   width: 50%;
+}
+body.modal-open {
+    position: fixed;
+    width: 100%;
+    height: auto;
+}

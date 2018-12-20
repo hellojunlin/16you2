@@ -1,0 +1,23 @@
+.form-group{
+	border-bottom: none !important;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+	margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.permission-list {
+    border: solid 1px #eee;
+}
+.permission-list > dt {
+    background-color: #efefef;
+    padding: 5px 10px;
+}
+.permission-list2 >dt{
+	padding:0px 10px;
+}
+@media (min-width: 1200px){
+.modal-dialog {
+    width: 65%;
+    margin: 30px auto;
+}
+}

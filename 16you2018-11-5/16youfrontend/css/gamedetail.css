@@ -1,0 +1,305 @@
+#game-listbox{
+    margin-bottom:1.2rem;
+}
+.gbgbox{
+    background: #fff;
+    text-align: center;
+    height: 4.6rem;
+    position: relative;
+}
+.gamebackground{
+    position: relative;
+    height:3.5rem;
+    background: #fff;
+}
+.backgroundimg{
+    width:100%;
+    height:3.5rem;
+}
+/* .blurbg{
+    width: 120%;
+    height:1.5rem;
+    background:#fff;
+    position: absolute;
+    bottom: -0.5rem;;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15);
+    -ms-filter: blur(15px);
+    filter: blur(15px); 
+    padding: 20px 0 0;
+    margin-left: -10%;
+    overflow-x:hidden;
+} */
+.blurbg{
+    width: 100%;
+    height:2.8rem;
+    position: absolute;
+    bottom:-0.05rem;
+    overflow-x:hidden;
+} 
+.blurbg img{
+    width: 100%;
+    height: 100%;
+}
+.gamelogobox{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+}
+.gamelogo{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.15rem;
+    background: rgba(255,255,255,0.4);
+    padding: 0.12rem;
+}
+.gamename{
+    font-size: 0.3rem;
+}
+.gamebrief {
+    color: #999;
+    padding-top: 0.05rem;
+    font-size: 0.22rem; 
+}
+.startbtn{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 50%;
+    margin-left: -20%;
+    text-decoration: none;
+    color: #fff;
+    background-color:#fcb334;
+    display: inline-block;
+    border-radius:0.12rem;
+    padding: 0.15rem 0;
+    width: 40%;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    z-index: 1;
+}
+.introduction {
+    background: #fff;
+    margin: 0.2rem 0 0;
+    padding:0.1rem 0.15rem 0.2rem;
+}
+.gameinfo_txt {
+    font-size: 0.22rem;
+    color: #666;
+     position:relative;
+    line-height:1.5em;
+}
+.hiddentxt{
+   height:6em;
+   overflow:hidden;
+}
+.hiddentxt::after{
+    content:"...";
+    font-weight:bold;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding-right: 53.5%;
+    background: #fff;
+}
+.title{
+    font-size: 0.26rem;
+}
+.intro_text{
+    position: relative;
+    padding-top: 0.1rem;
+}
+.viewall{
+    display: none;
+    position: absolute;
+    color:#fcb334;
+    bottom: 0;
+    left: 49%;
+    text-decoration: none;
+}
+.title span{
+    border: 1px solid #fcb334;
+    margin-right: 0.17rem;
+    height: 0.25rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.giftbag{
+    font-size: 0;
+}
+.inro-left{
+    width: 82%;
+    display: inline-block;
+    font-size: 0.24rem;
+    vertical-align: middle;
+    margin-right: 3%;
+}
+.intro-right{
+    width: 15%;
+    display: inline-block;
+    font-size: 0.24rem;
+    vertical-align: middle;
+    text-align: right;
+}
+.flag {
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    padding: 0 0.06rem;
+    border-radius: 0.06rem;
+    font-size: 0.2rem;
+    margin: 0 0.2rem 0 0.15rem;
+    cursor: pointer;
+}
+.game-title {
+    font-size: 0.26rem;
+}
+.intro-info {
+    color: #999;
+    font-size: 0.22rem;
+    padding: 0.12rem 0;
+}
+.receivebtn{
+    display: inline-block;
+    color: #fcb334;
+    text-decoration: none;
+    border: 1px solid #fcb334;
+    border-radius: 0.1rem;
+    padding: 0.1rem 0;
+    width: 100%;
+    text-align: center;
+}  
+.intro-information p{
+    color: #999;
+    font-size: 0.22rem;
+}
+/*---领取礼包模态框--*/
+#giftmodal,#servemodal {
+    display:none;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+.servebox {
+    width: 80%;
+    background: #fff;
+    margin: 2rem auto 0;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    padding: 0.15rem 0;
+}
+.libaobox{
+    padding-bottom: 0.4rem;
+}
+.get_img{
+    height: 1.5rem;
+    padding: 0.17rem 0 0;
+}
+.get_img img{
+    height: 100%;
+}
+.closeimg,.rqcloseimg{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.17rem;
+    width: 0.25rem;
+    height: 0.25rem;
+}
+.servebox h5{
+    font-size: 0.24rem;
+    padding:0.3rem 0 0.17rem;
+}
+.gifttxt{
+    line-height: 18px;
+    font-size: 14px;
+    color: #ff6659;
+    padding: 0 0.25rem;
+    font-weight: bold;
+}
+.notice{
+    padding: 0.17rem 0;
+}
+.active_num a{
+    display: block;
+    width: 60%;
+    text-decoration: none;
+    padding: 0.17rem 0;
+    margin: 0.17rem auto 0;
+    border: 1px solid #f50;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+    color: #f50;
+}
+.servebox h2{
+    font-size: 0.24rem;
+    font-weight: normal;
+    padding: 0.17rem 0 0.1rem;
+}
+.servebox h2 img{
+    width: 0.1rem;
+}
+.ewm_box a{
+    color: #333;
+    text-decoration: underline;
+    font-size: 0.22rem;
+}
+.receive_btn{
+    background-color: #fcd134;
+    margin-top: 0.35rem;
+    border-radius: 0 0 10px 10px;
+}
+.receive_btn a{
+    color: #333;
+    display: block;
+    padding: 0.2rem;
+}
+/*---the end----*/ 
+/*---入群模态框--*/
+h1.servetitle {
+    font-size: 0.3rem;
+    padding-top: 0.2rem;
+}
+.servebox h5 {
+    font-size: 0.24rem;
+    padding: 0.3rem 0 0.17rem;
+    font-weight: normal;
+}
+.active_num a {
+    display: block;
+    width: 60%;
+    text-decoration: none;
+    padding: 0.17rem 0;
+    margin: 0.17rem auto 0;
+    border: 1px solid #f50;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    color: #333;
+}
+.ewm_box img {
+    width: 2rem;
+    height: 2rem;
+} 
+/*---the end----*/
+.game_list{
+    border-bottom: none;
+}
+.recentlyimg {
+    width: 0.67rem !important;
+    height: 0.67rem !important;
+    border-radius: 6px;
+}
+.swiper-wrapper {
+    height:100% !important;
+}

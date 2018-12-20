@@ -1,0 +1,55 @@
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+body {
+  background: #cf7e65;
+}
+
+.page {
+  padding: 0.2rem;
+}
+
+.header .header-title {
+  font-size: 0.5rem;
+  text-align: center;
+  color: #ffca7c;
+}
+
+.main {
+  margin-top: 0.35rem;
+  padding: 10px 0;
+  text-align: center;
+}
+.main p {
+  font-size: 0.35rem;
+  color: #eee;
+}
+
+.put-btn {
+  text-align: center;
+  padding: 0 20px 40px;
+}
+.put-btn .submit-btn {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  background: #b21308;
+  color: #fff;
+  font-size: 0.25rem;
+}
+
+.rq-code {
+  text-align: center;
+}
+.rq-code p {
+  font-size: 0.2rem;
+  color: #fff;
+  padding: 0.2rem 0;
+}
+.rq-code img {
+  height: 2rem;
+  width: 2rem;
+}

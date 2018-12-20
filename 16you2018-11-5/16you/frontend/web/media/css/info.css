@@ -1,0 +1,61 @@
+body{
+	background: #fff;
+}
+.info{
+	padding-top: 0.2rem;
+}
+.game_list_box {
+    border-bottom: 1px solid #eceaea;
+    margin: 0 0 0 0.17rem;
+    position: relative;
+}
+ul.news_ul {
+    position: relative;
+}
+.news_ul {
+    padding: 0.2rem 0;
+}
+ul.news_ul li {
+    display: inline-block;
+    vertical-align: text-top;
+}
+li.game_img, li.game_start{
+    width: 15%;
+}
+a.ad {
+    border: 1px solid #fe484e;
+    padding: 0.05rem 0.1rem;
+    border-radius: 2px;
+    font-size: 0.2rem;
+    color: #fe484e;
+}
+ul.news_ul li {
+    display: inline-block;
+    vertical-align: text-top;
+}
+li.game_describe {
+    width: 68%;
+}
+.game_p {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+ul.news_ul>li.game_start {
+    position: absolute;
+    right: 0;
+    top: 0.22rem;
+}
+.time {
+    color: #666;
+}
+.warmtips{
+	text-align: center;
+	font-size: 0.22rem;
+	color: #999;
+	padding: 0.2rem 0;
+}

@@ -1,0 +1,324 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+	color: #000;
+/*    background-color: #f7f7f7;*/
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+	bottom:0;
+    background: #f0eff5;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+    font-size: 0.24rem;
+    min-width: 320px;
+    max-width: 640px;
+}
+.cl{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+.bg_white{
+    background-color: #fff;
+}
+img{
+    max-width: 100%;
+    border: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+i{
+    font-style: normal;
+}
+.change_mall_box{
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding-bottom: 0.2rem;
+    float: left;
+    background: #fff;
+    margin-bottom: 0.2rem;
+}
+.change_mall_box em{
+    overflow: hidden;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	height: 3.1rem;
+}
+.change_mall_box em img{
+	height:100%;
+}
+.change_mall_size{
+    padding: 0.1rem;
+}
+.change_mall_size h1{
+    font-size: 0.27rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-spacing: normal;
+    line-height: 0.6rem;
+    overflow: hidden;
+    font-weight: normal;
+}
+.change_mall_size span{
+    float: right;
+    font-size: 0.3rem;
+    display: block;
+    padding-right: 0.2rem;
+    padding-top: 0.15rem;
+}
+.change_mall_size span i{
+    font-style: normal;
+    color: #fa6f2a;
+    vertical-align: middle;
+    font-size: 0.4rem;
+}
+.sl{
+    float: left;
+}
+.change_mall_size p{
+    line-height: 0.4rem;
+    font-weight: normal;
+    font-size: 0.24rem;
+    color: #666;
+    padding-top: 0.06rem;
+}
+.iblur{
+    color: #0084ff;
+}
+.ired{
+    color: #fa6f2a;
+}
+.produce{
+    padding: 0.2rem;
+    margin:0.2rem auto 1rem;
+    background: #fff;
+    overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+.produce h1{
+    font-size: 0.27rem;
+    line-height: 0.36rem;
+    border-left: 0.1rem solid #0084ff;
+    padding-left: 0.1rem;
+    font-weight: normal;
+}
+.produce_mail {
+    padding-left: 0.05rem;
+}
+.produce_mail span{
+    color: #fa6f2a;
+    font-style: normal;
+    vertical-align: middle;
+}
+.produce_notice {
+    padding-top: 0.1rem;
+    padding-left: 0.05rem;
+    line-height: 0.45rem;
+    font-size: 0.24rem;
+}
+.change_nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+	text-align:center;
+}
+.change_more,.change_att{
+	width: 46%;
+    text-align: center;
+     margin: 0.1rem 0rem;
+    display: inline-block;
+}
+.change_att{
+	background:#3879D9;
+}
+.change_nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.change_nav .her-text{
+	color: #333;
+}
+.change_more{
+    height: 0.7rem;
+    border-radius: 0.05rem;
+    line-height: 0.7rem;
+    background: #fff;
+    border: 1px solid #666;
+}
+.change_att{
+    height: 0.7rem;
+    border-radius: 0.05rem;
+    line-height: 0.7rem;
+    background: #dadada;
+    border: 1px solid #dadada;
+}
+/** iPhone 5**/
+/* @media only screen and (min-width: 320px) and (max-width: 568px) {
+	.change_more, .change_att{
+		width: 46.2%;		
+	}	
+	.produce{
+		margin-bottom:1.5rem;
+	}
+} */
+
+/*收货地址弹框*/
+.rank_bg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,.6);
+    display: none;
+}
+.ptnList{
+    width: 80%;
+    padding-bottom: 1.5rem;
+    margin: 1.26rem auto;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 10000;
+    position: relative;   
+}
+.myselfInfo,.recently{ 
+    padding: 0.1rem 0.3rem 0.1rem;
+    margin-top: 0.2rem;
+}
+.ptnList h1{
+    display: block;
+    height: 14%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 0.7rem;
+}
+.ptnList h4{
+    color: #333;
+    font-size: 15px;
+    border-left: 3px solid #fcb334;
+    font-weight: normal;
+    padding-left: 5px;
+    line-height: 15px;
+    height: 15px;
+}
+.recently p{
+    width: 33.3%;
+    float: left;
+}
+.recently em{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+}
+.recently span{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    padding: 0.1rem 0;
+}
+.gameatt{
+    width: 200px;
+    overflow: hidden;
+    margin: 10px auto 0;
+}
+.myselfInfo p{
+    line-height: 18px;
+    font-size: 12px;
+    color: #333;
+    padding: 6px 10px 0;
+}
+.convertBtn{
+    height: 48px;
+    background: #fcd134;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+	    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.convertBtn a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+.addressText{
+	height: 25px;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+}
+.pastFontsize{
+    line-height: 0.67rem;
+} 
+#deleteBtn {
+   width: 0.15rem;
+    position: absolute;
+    top: 0rem;
+    right: 0.15rem;
+    color: #ccc;
+} 
+.dream_sunny{
+	font-style: normal;
+    vertical-align: middle;
+	text-align:center;
+}
+.error,.success{
+	font-size: 0.26rem;
+    padding:4px;
+    color:#F00;
+}
+.success{
+    color:#0C0;
+}
+.error{
+    color: #F00;
+}
+.fz_sm2{
+		font-size: 0.215rem;
+	}
+/** iPhone **/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.fz_sm2{
+		font-size: 0.315rem; 
+	}
+.fz_sm26{
+	font-size:0.29rem;
+}
+.error{
+	font-size:0.36rem;
+}
+}
+/** iPhone 6p**/
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+.fz_sm2{
+		font-size: 0.26rem; 
+	}
+.fz_sm26{
+	font-size:0.29rem;
+}
+.error{
+	font-size:0.76em;
+}
+}
+
+

@@ -1,0 +1,1 @@
+document.write("<script src='https://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>");document.write("<script src='https://cdn16you.zqqgl.com/js/jquery.min.js'></script>");document.write("<script src='https://wx.16you.com/media/js/pgame_sdk.min.js'></script>");

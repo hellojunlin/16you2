@@ -1,0 +1,485 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color: #000;
+    background-color: #f7f7f7;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 苹方;
+    font-size: 16px;
+    min-width: 320px;
+    max-width: 640px;
+}
+/*头部*/
+.mt_head {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: #0A0A0C;
+    position: fixed;
+    z-index: 1999;
+    top:0;
+}
+.mt_goback {
+    width: 12px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    padding: 12px 10px;
+}
+.mt_h {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.mt_goback {
+    width: 12px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    padding: 12px 10px;
+}
+.mt-dow {
+    vertical-align: top;
+}
+/**/
+.cl{
+  clear:both;
+}
+img{
+	border: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+.user-headbox {
+	position: relative;
+    /*height: 1rem;*/
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-top: 44px;
+}
+.u_h {
+    padding: 0.17rem 0.25rem;
+    display: inline-block;
+}
+.headimg,.infobox {
+    display: inline-block;
+    vertical-align: middle;
+}
+.infobox {
+    margin-top: 0.04rem;
+    margin-left: 0.083rem;
+}
+.headimg img {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.changesmall img{
+	width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+}
+span.namebox {
+    color: #ff3000;
+}
+.vipbox {
+    position: relative;
+    margin-top: -0.15rem;
+}
+.vipprogress {
+    position: relative;
+    width: 1.2rem;
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: inline-block;
+}
+.vipprogress span {
+    width: 20%;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background: #fcb334;
+    border-radius: 10px;
+}
+.vipgrade {
+    position: absolute;
+    top: -0.05rem;
+    right: -0.8rem;
+}
+.vipgrade img {
+    width: 0.35rem;
+}
+.vipnum {
+    font-size: 0.18rem;
+    color: #fcb334;
+    margin-top: -0.01rem;
+}
+.searchbox {
+    position: absolute;
+    top: 0.35rem;
+    right: 5%;
+    cursor:pointer;
+    /* left: 80%;
+    height: 0.8rem;
+    line-height: 0.8rem; */
+}
+.searchbox img {
+    width: 0.4rem;
+    vertical-align: middle;
+    border-radius: 6px;
+    padding-right: 0.1rem;
+}
+.payattenction {
+    position: absolute;
+    top: 0.1rem;
+    right: 0;
+}
+.payattenction img {
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    margin-bottom: 0.1rem;
+}
+.gztxt {
+    background: #78ae41;
+    color: #fff;
+    font-size: 0.2rem;
+    padding: 0 0.1rem;
+    margin-left: -0.6rem;
+    border-radius: 4px;
+    vertical-align: bottom;
+}
+.hitsearch {
+   /* position: absolute;
+    top: 0.15rem;
+    right: -0.5rem;*/
+    width: 0.35rem;
+    height: 0.35rem;
+    vertical-align: middle;
+    border-radius: 0 50px 50px 0;
+    padding: 0.1rem;
+}
+.cancelimg {
+    width: 0.4rem;
+    position: absolute;
+    right: -1.2rem;
+    top: 0.05rem;
+    cursor: pointer;
+}
+.infortext {
+    font-size: 0.2rem;
+    color: #666;
+}
+.infoContent{
+	background: #fff;
+    padding: 0.36rem 0.2rem;
+}
+.infoTip{
+	background: #f2d87b;
+	padding: 0.1rem 0.2rem;
+}
+.infoTip p{
+    font-size: 0.27rem;
+    line-height: 0.5rem;
+    color: #333;
+}
+.inputText{
+	border:1px solid #ddd;
+	padding: 0.1rem 0.1rem;
+}
+.dataInfor {
+    padding: 0.2rem 0.2rem 0 0.2rem;
+}
+.strSet,.dataInfor p{
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 0.26rem;
+}
+.strSet{
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+	line-height: 0.5rem;
+    font-size: 0.265rem;
+}
+.dataInfor p{
+	width: 60%;
+}
+.subInfor,.editInfor{
+	width: 20%;
+    background: #edc638;
+    padding: 0.05rem 0.06rem;
+    margin: 0.2rem auto;
+    text-align: center;
+    border-radius: 4px 4px;
+}
+.subInfor a,.editInfor a{
+    color: #fff;
+    font-size: 0.3rem;
+	text-decoration: none;
+}
+.error{ 
+    padding:4px;
+    padding-left:18px; 
+    color:#F00;
+    font-size: 0.21rem;
+}
+.errorInfo{
+	width: 17%;
+    height: 0.5rem;
+}
+.tipsmodall {
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+    padding: 0.3rem 0;
+    border-radius: 4px;
+    text-align: center;
+    top: 30%;
+}
+.solod{
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+#tiptip{
+    background: #f4dc85;
+    width: 70%;
+    height: 100px;
+    position: absolute;
+    top: 27%;
+    left: 12%;
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 15px 15px 15px 15px;
+}
+#tiptip em,#tiptip p{
+    display: inline-block;
+}
+#tiptip em{
+    width: 35%;
+    height: 34px;
+}
+#tiptip em img{
+    width: 114%;
+    height: 104px;
+}
+#tiptip p{
+    width: 59%;
+    height: 31px;
+    line-height: 0.5rem;
+    margin-top: 0.15rem;
+    font-size: 0.26rem;
+}
+div#tipsfail {
+    padding: 0.3rem;
+    margin-left: -29%;
+    text-align: left;
+}
+/* 导航栏部分 */
+.innerbox {
+    /*position: relative;
+    width: 2.5rem;
+    height: 0.45rem;*/
+    margin: auto;
+    position: relative;
+    /*padding: 0.15rem 0 0;*/
+}
+.winput {
+    width: 3rem;
+    border-radius: 50px;
+    border: 1px solid #fcb334;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left: 20%;
+}
+.searchinputbox {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top:0.15rem;
+    left: 20%;
+    width: 3rem; 
+}
+#searchcon {
+    display: none;
+    background-color: #fff;
+    padding: 0.17rem;
+}
+.re_play_box span {
+    display: inline-block;
+    background-color: #f0eff5;
+    padding: 0.05rem;
+    border-radius: 4px;
+    margin-left: 0.2rem;
+    color: #7b7a7a;
+    margin-bottom: 0.2rem;
+    font-size: 0.24rem;
+}
+#wxmodal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+.wxbox {
+    text-align: center;
+}
+.wxsmallbox {
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    margin-top: 30%;
+    position: relative;
+}
+.closecodemodal {
+    position: absolute;
+    top: -0.4rem;
+    right: -0.4rem;
+    width: 0.45rem;
+    height: 0.45rem;
+}
+.wxcodeimg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 6px;
+}
+.tipcode {
+    color: #fff;
+    padding-top: 0.2rem;
+}
+/* 搜索功能样式 */
+.game_list_box {
+    padding: 10px 82px 10px 60px;
+    border-bottom: 1px solid #eceaea;
+    margin-left: 15px;
+    position: relative;
+}
+.game_list_box em {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -25px;
+    overflow: hidden;
+}
+.game_list_text h1 {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+a.screening {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.col_2mt{
+    color: #ff433b;
+    border: 1px solid #ff433b;
+}
+.colcommon{
+    margin-left: 0.1rem;
+    vertical-align: text-top;
+    padding: 0 2px;
+    font-size: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.game_list_text span {
+    vertical-align: text-top;
+    margin-left: 4px;
+    padding: 0 2px;
+    font-size: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.col_4mt {
+    color: #5095fe;
+    border: 1px solid #5095fe;
+}
+.slogan{
+    font-size: 11px;
+    line-height: 11px;
+    color: #666;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    padding-top: 15px;
+}
+.game_begin a {
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    border: 1px solid #999;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -12px;
+}
+/* 未搜索到时 */
+.no-result_Mt{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.no-result_Mt img{
+    display: block;
+    width: 30%;
+    margin: 15px auto 0;
+}

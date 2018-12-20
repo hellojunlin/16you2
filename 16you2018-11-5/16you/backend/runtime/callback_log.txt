@@ -1,0 +1,78 @@
+2018-03-22 11:09:48---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hqgh5","partnerid":"5b706a5c0412c3269a5f0391bf70094e","userid":"783","total_fee":"600","transaction_id":"wxp201803221105083377","out_trade_no":"JY20180322110506s8tsu1","product_id":"101","attach":"65502","pay_time":"2018-03-22 11:05:17","timestamp":"1521688187","sign":"DD87D3B48DC9C47799A68F2A044DCDE9A05B071E"}
+回调地址：http://test.hqg2.961u.com/pay_hqg2/16youpay
+
+2018-03-22 11:26:07---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hqgh5","partnerid":"5b706a5c0412c3269a5f0391bf70094e","userid":"783","total_fee":"600","transaction_id":"wxp201803221105083377","out_trade_no":"JY20180322110506s8tsu1","product_id":"101","attach":"65502","pay_time":"2018-03-22 11:05:17","timestamp":"1521689167","sign":"434259CE8C65A6EAF4B731C5C684C27DA27C3E68"}
+回调地址：http://test.hqg2.961u.com/pay_hqg2/16youpay
+
+2018-03-22 11:27:39---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hqgh5","partnerid":"5b706a5c0412c3269a5f0391bf70094e","userid":"783","total_fee":"600","transaction_id":"wxp201803221105083377","out_trade_no":"JY20180322110506s8tsu1","product_id":"101","attach":"65502","pay_time":"2018-03-22 11:05:17","timestamp":"1521689259","sign":"FD5B48D0FC3EC8A1F293FE64DAB1A8D31A31B0D7"}
+回调地址：http://test.hqg2.961u.com/pay_hqg2/16youpay
+
+2018-04-03 16:13:19---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hjh","partnerid":"79673f0ad07f112b2c49391b15a4a692","userid":"759525","total_fee":"100","transaction_id":"wxp201804031543579880","out_trade_no":"759525_1522741435000","product_id":"1","attach":"64001|759525_1522741435000|4127233|1|11529134edbaacfd3f7bc859badcf7b8|759525","pay_time":"2018-04-03 15:44:06","timestamp":"1522743198","sign":"F6EBBE0C07EBCF39B9F5B39E5CBBBCB311367D01"}
+回调地址：http://ttfx.wan855.cn/16you/hjhzbmt/exchange.html
+
+2018-04-04 18:44:21---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hjh","partnerid":"79673f0ad07f112b2c49391b15a4a692","userid":"759525","total_fee":"100","transaction_id":"wxp201804031543579880","out_trade_no":"759525_1522741435000","product_id":"1","attach":"64001|759525_1522741435000|4127233|1|11529134edbaacfd3f7bc859badcf7b8|759525","pay_time":"2018-04-03 15:44:06","timestamp":"1522838661","sign":"AA8CC21151D36F46A5EDCCBC6FBC7F42395BAC36"}
+回调地址：http://ttfx.wan855.cn/16you/hjhzbmt/exchange.html
+
+2018-04-04 19:30:19---回调成功------回调参数:{"trade_status":"SUCCESS","game":"hjh","partnerid":"79673f0ad07f112b2c49391b15a4a692","userid":"759525","total_fee":"100","transaction_id":"wxp201804031543579880","out_trade_no":"759525_1522741435000","product_id":"1","attach":"64001|759525_1522741435000|4127233|1|11529134edbaacfd3f7bc859badcf7b8|759525","pay_time":"2018-04-03 15:44:06","timestamp":"1522841418","sign":"3B997EBFD61B2CD0A65CD460FB3A2A36F8815C28"}
+回调地址：http://ttfx.wan855.cn/16you/hjhzbmt/exchange.html
+
+2018-05-02 15:47:44---回调成功------回调参数:{"trade_status":"SUCCESS","game":"lcby","partnerid":"a829b6def307bd357011e57e5d6a635d","userid":"448724","total_fee":"10000","transaction_id":"wxp201805021439558877","out_trade_no":"201805021439533009360","product_id":"100","attach":"201805021439533009360","pay_time":"2018-05-02 14:40:01","timestamp":"1525247264","sign":"90648E9E435BEDA8EACFCEBADA24329DF9DB103A"}
+回调地址：http://www.xcvgame.cn/16y/lcby/paycallback.php
+
+2018-05-31 17:17:27---回调成功------回调参数:{"trade_status":"SUCCESS","game":"dtszjH5","partnerid":"4c48df0a855acde2f76a5eb86fb2a49b","userid":"742091","total_fee":"9800","transaction_id":"sft201805311004576954","out_trade_no":"16y220180531100455568944","product_id":"103","attach":"","pay_time":"2018-05-31 10:06:05","timestamp":"1527758245","sign":"CFA8C82983CD5CD8E58B0EA2066AA8B67CC45F37"}
+回调地址：http://apipayh5.37.com/charge/pay_to_game/16y2/2
+
+2018-06-21 10:46:22---回调失败------回调参数:{"trade_status":"SUCCESS","game":"ssyfx","partnerid":"107c2933f58b9b4d6b8ee6fcffd40b92","userid":"868349","total_fee":"600","transaction_id":"wxp201806210114304229","out_trade_no":"2748236005883904","product_id":"31","attach":"2748236005883904","pay_time":"2018-06-21 01:14:36","timestamp":"1529549181","sign":"14DD870F0BC512E63CB4B42DCC721E0A1A927309"}
+回调地址：http://paycenter.layabox.com/pay/328/deliver
+
+2018-06-21 10:52:12---回调成功------回调参数:{"trade_status":"SUCCESS","game":"ssyfx","partnerid":"107c2933f58b9b4d6b8ee6fcffd40b92","userid":"868349","total_fee":"600","transaction_id":"wxp201806210114304229","out_trade_no":"2748236005883904","product_id":"31","attach":"2748236005883904","pay_time":"2018-06-21 01:14:36","timestamp":"1529549531","sign":"3A490E8857F9E6C19CD10701D2089F167262F77B"}
+回调地址：http://paycenter.layabox.com/pay/328/deliver
+
+2018-06-21 10:52:33---回调成功------回调参数:{"trade_status":"SUCCESS","game":"ssyfx","partnerid":"107c2933f58b9b4d6b8ee6fcffd40b92","userid":"868349","total_fee":"600","transaction_id":"wxp201806210114304229","out_trade_no":"2748236005883904","product_id":"31","attach":"2748236005883904","pay_time":"2018-06-21 01:14:36","timestamp":"1529549551","sign":"213FC8F41B831AC4AFA8B1AD6D140DE9C7141099"}
+回调地址：http://paycenter.layabox.com/pay/328/deliver
+
+2018-06-21 10:52:50---回调成功------回调参数:{"trade_status":"SUCCESS","game":"ssyfx","partnerid":"107c2933f58b9b4d6b8ee6fcffd40b92","userid":"868349","total_fee":"100","transaction_id":"wxp201806190155409609","out_trade_no":"2745445314297856","product_id":"11","attach":"2745445314297856","pay_time":"2018-06-19 01:55:46","timestamp":"1529549569","sign":"54FC57AE439F9AEA446A29038CD0339D16836179"}
+回调地址：http://paycenter.layabox.com/pay/328/deliver
+
+2018-06-21 10:53:03---回调成功------回调参数:{"trade_status":"SUCCESS","game":"ssyfx","partnerid":"107c2933f58b9b4d6b8ee6fcffd40b92","userid":"868349","total_fee":"600","transaction_id":"wxp201806190156093375","out_trade_no":"2745445790629888","product_id":"12","attach":"2745445790629888","pay_time":"2018-06-19 01:56:14","timestamp":"1529549582","sign":"E9A622A55022B98FA503CCC159B5E0D3775A6B20"}
+回调地址：http://paycenter.layabox.com/pay/328/deliver
+
+2018-06-29 15:20:13---回调失败------回调参数:{"trade_status":"SUCCESS","game":"qmzgH5","partnerid":"27ba5b04397039b99c8636a12ec7cc2e","userid":"225012","total_fee":"3000","transaction_id":"wxp201806291503179097","out_trade_no":"185779","product_id":"185779","attach":"1","pay_time":"2018-06-29 15:03:24","timestamp":"1530256813","sign":"56E840A1407802FDA84CF72665D2B5F67FE971A5"}
+回调地址：http://sdk.83wan.cn/C16youxi/Paynotify/game/qmzg
+
+2018-06-29 15:21:06---回调失败------回调参数:{"trade_status":"SUCCESS","game":"qmzgH5","partnerid":"27ba5b04397039b99c8636a12ec7cc2e","userid":"225012","total_fee":"3000","transaction_id":"wxp201806291503179097","out_trade_no":"185779","product_id":"185779","attach":"1","pay_time":"2018-06-29 15:03:24","timestamp":"1530256866","sign":"B0AC6ED9433118AF90977151081016B7013A1200"}
+回调地址：http://sdk.83wan.cn/C16youxi/Paynotify/game/qmzg
+
+2018-06-29 15:29:14---回调失败------回调参数:{"trade_status":"SUCCESS","game":"qmzgH5","partnerid":"27ba5b04397039b99c8636a12ec7cc2e","userid":"225012","total_fee":"3000","transaction_id":"wxp201806291503179097","out_trade_no":"185779","product_id":"185779","attach":"1","pay_time":"2018-06-29 15:03:24","timestamp":"1530257354","sign":"58E40CBD0031996C8405B79080BC2F6D1748118A"}
+回调地址：http://sdk.83wan.cn/C16youxi/Paynotify/game/qmzg
+
+2018-06-29 15:29:44---回调失败------回调参数:{"trade_status":"SUCCESS","game":"qmzgH5","partnerid":"27ba5b04397039b99c8636a12ec7cc2e","userid":"225012","total_fee":"3000","transaction_id":"wxp201806291503179097","out_trade_no":"185779","product_id":"185779","attach":"1","pay_time":"2018-06-29 15:03:24","timestamp":"1530257384","sign":"AC7CD4D0218897EE3378AC6DD545A2FD397A7694"}
+回调地址：http://sdk.83wan.cn/C16youxi/Paynotify/game/qmzg
+
+2018-06-29 15:32:57---回调成功------回调参数:{"trade_status":"SUCCESS","game":"qzsg","partnerid":"b7dde98d06048469fbcb0f6c8000ebe2","userid":"899055","total_fee":"100","transaction_id":"wxp201806291532184324","out_trade_no":"46840913330359_1530257536","product_id":"401","attach":"10906_401_46840913330359","pay_time":"2018-06-29 15:32:30","timestamp":"1530257577","sign":"4DC76F4A83DEF7D6C2A0047A5D858731536F9F67"}
+回调地址：http://game.chuangchangnet.com/game/qzsg/16pt/pay_callback.php
+
+2018-06-29 15:34:53---回调失败------回调参数:{"trade_status":"SUCCESS","game":"qmzgH5","partnerid":"27ba5b04397039b99c8636a12ec7cc2e","userid":"225012","total_fee":"3000","transaction_id":"wxp201806291503179097","out_trade_no":"185779","product_id":"185779","attach":"1","pay_time":"2018-06-29 15:03:24","timestamp":"1530257693","sign":"93F80A29A37AFCFD851628F23BEFCBD6729DEBAD"}
+回调地址：http://sdk.83wan.cn/C16youxi/Paynotify/game/qmzg
+
+2018-06-29 15:38:23---回调失败------回调参数:{"trade_status":"SUCCESS","game":"qmzgH5","partnerid":"27ba5b04397039b99c8636a12ec7cc2e","userid":"225012","total_fee":"3000","transaction_id":"wxp201806291503179097","out_trade_no":"185779","product_id":"185779","attach":"1","pay_time":"2018-06-29 15:03:24","timestamp":"1530257903","sign":"9DAE7DCBBC0B8D164C9A0736F39267E827AAE47D"}
+回调地址：http://sdk.83wan.cn/C16youxi/Paynotify/game/qmzg
+
+2018-07-23 11:03:12---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hxxy","partnerid":"701041ba7bb519fa4b27c60f4dc7d5e7","userid":"932514","total_fee":"1","transaction_id":"wxp201807211810389185","out_trade_no":"g2460_37994217_1532167837_853","product_id":"1","attach":"38","pay_time":"2018-07-21 18:10:44","timestamp":"1532314992","sign":"06B1F94D89968AFDCF6F4C595B893AB61BBE4418"}
+回调地址：http://h5sdk-xly.xileyougame.com/index.php/api/notify/sixteengame/1350
+
+2018-07-23 11:10:32---回调失败------回调参数:{"trade_status":"SUCCESS","game":"hxxy","partnerid":"701041ba7bb519fa4b27c60f4dc7d5e7","userid":"932514","total_fee":"1","transaction_id":"wxp201807211810389185","out_trade_no":"g2460_37994217_1532167837_853","product_id":"1","attach":"38","pay_time":"2018-07-21 18:10:44","timestamp":"1532315432","sign":"D6DA307738E04CEFA7B897ED2EC92699CD25E4DB"}
+回调地址：http://h5sdk-xly.xileyougame.com/index.php/api/notify/sixteengame/1350
+
+2018-07-23 16:41:22---回调失败------回调参数:{"trade_status":"SUCCESS","game":"tlpx","partnerid":"a2d951a7ef12d2ad83163c22678c94d0","userid":"934893","total_fee":"1000","transaction_id":"wxp201807231534237044","out_trade_no":"7FE12C01EC9730B5605E58EA1D3281F9","product_id":"1000\u5143\u5b9d","attach":"","pay_time":"2018-07-23 15:34:32","timestamp":"1532335282","sign":"FFAE051482B866C94B667D3409CC4F7031AA9E7B"}
+回调地址：https://mpay-api.37.com.cn/game/sppay/486/1003749/
+
+2018-07-23 17:30:56---回调失败------回调参数:{"trade_status":"SUCCESS","game":"tlpx","partnerid":"a2d951a7ef12d2ad83163c22678c94d0","userid":"934893","total_fee":"1000","transaction_id":"wxp201807231534237044","out_trade_no":"7FE12C01EC9730B5605E58EA1D3281F9","product_id":"1000\u5143\u5b9d","attach":"","pay_time":"2018-07-23 15:34:32","timestamp":"1532338256","sign":"2ACB8B9CF7EB8313798D47F512AFF7A78CCBEB32"}
+回调地址：https://mpay-api.37.com.cn/game/sppay/486/1003749/
+
+2018-07-23 18:00:00---回调失败------回调参数:{"trade_status":"SUCCESS","game":"tlpx","partnerid":"a2d951a7ef12d2ad83163c22678c94d0","userid":"934893","total_fee":"1000","transaction_id":"wxp201807231534237044","out_trade_no":"7FE12C01EC9730B5605E58EA1D3281F9","product_id":"1000\u5143\u5b9d","attach":"","pay_time":"2018-07-23 15:34:32","timestamp":"1532340000","sign":"2147D16913F43F50A743C5B81F1FF57A34A70927"}
+回调地址：https://mpay-api.37.com.cn/game/sppay/486/1003749/
+
+2018-09-06 11:50:48---回调失败------回调参数:{"trade_status":"SUCCESS","game":"wdws","partnerid":"a4ba3c03a57c8f7e90a09125b7f2a911","userid":"783","total_fee":"100","transaction_id":"wxp201809061120343160","out_trade_no":"414920180906112033697052232","product_id":"11","attach":"414920180906112033697052232","pay_time":"2018-09-06 11:20:42","timestamp":"1536205848","sign":"979574D053440738061950CDB534AFF02324BAFB"}
+回调地址：http://h5.sdk.quicksdk.net/webGame/notify/productCode/99936258951302565905224499833313/channelCode/4149
+

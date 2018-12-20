@@ -1,0 +1,253 @@
+.vipuser{
+	height: 2rem;
+	background-color: #333;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.vip_line{
+	height: 0.8rem;
+	width: 100%;
+	border-bottom: 2px solid #fcd134;
+}
+.notext {
+    text-align: center;
+    padding: 20px 0;
+}
+.notext img{
+	width:1rem;
+	padding: 0 0 10px;
+}
+.swiper-slide-active #top-vip-level-avatar {
+	position: relative;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 auto;
+}
+.vip_head span {
+	display: block;
+}
+.swiper-slide-active .vip_head span img{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	display: block;
+	border:1px solid #fff;
+}
+.swiper-slide-active .vip_head em{
+	background: url(/images/vip_bg.png) 0 / 100% no-repeat;
+	width: 1.167rem;
+    height: 0.3rem;
+	display: block;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+	margin-left: -0.05rem;
+	text-align: center;
+	line-height: 0.39rem;
+    font-size: 0.02rem;
+    font-style: normal;
+    margin-bottom: 0.08rem;
+}
+#top-vip-level-avatar {
+	position: relative;
+    height: 0.7rem;
+    width: 0.7rem;
+    margin: 0 auto;
+}
+.vip_head span img{
+	width: 0.67rem;
+	height: 0.67rem;
+	border-radius: 50%;
+	display: block;
+	border:1px solid #fff;
+}
+.vip_head em{
+	background: url(/images/vip_bg.png) 0 / 100% no-repeat;
+	width: 0.93rem;
+    height: 0.3rem;
+	display: block;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+	margin-left: -0.1rem;
+    text-align: center;
+    line-height: 0.35rem;
+    font-size: 0.18rem;
+    font-style: normal;
+    margin-bottom: -0.08rem;
+}
+.gallery-thumbs .swiper-slide {
+    width: 33.3% !important;
+    height: 100%;
+}
+.swiper-head .swiper-wrapper .swiper-slide{
+	margin-top: 0.5rem;
+}
+.swiper-head .swiper-wrapper .swiper-slide-active{
+	margin-top: 0.3rem;
+}
+.vip_grade {
+	margin: 0 auto;
+    display: block;
+    background: #fcd134;
+    width: 0.67rem;
+    height: 0.67rem;
+    border-radius: 50%;
+    line-height: 0.67rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+.swiper-wrapper .swiper-slide-active .vip_grade{
+	width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.vip-experience {
+    position: absolute;
+    bottom: 0.25rem;
+    color: #fff;
+    left: 46%;
+    font-size: 0.22rem;
+}
+/*---vip内容--*/
+/* .swiper-container{
+	overflow: initial !important;
+} */
+.arrowbox {
+    width: 100%;
+    position: absolute;
+    bottom: 0.12rem;
+    left: 47%;
+}
+.arrow{
+	border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    width: 0;
+    height: 0;
+}
+/* .swiper_boxlist::before{
+	content: '';
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #fff;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -0.133rem;
+	left: 50%;
+	margin-left: -0.17rem;
+} */
+.no-privilege {
+    background: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.no-privilege img{
+	width: 2rem;
+}
+.no-privilege p{
+	margin-top: 0.25rem;
+}
+.vip-privilege {
+    background: #fff;
+}
+.vip-privilege h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+	padding: 0.17rem;
+}
+.vip-privilege-list{
+	float: left;
+	background: #fff;
+	padding-left: 0.17rem;
+	width:100%;
+}
+.vip-privilege-list ul{
+	list-style: none;
+	width: 100%;
+	float: left;
+	padding:0.17rem 0;
+	border-bottom: 1px solid #e1e1e1;
+}
+.vip-privilege-list ul li{
+	float: left;
+}
+li.iconimg{
+	width: 15%;
+}
+li.detail-info{
+	width: 80%;
+}
+li.iconimg img{
+	display: block;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-top: 0.22rem;
+}
+li.detail-info h2{
+	font-size: 0.24rem;
+	line-height: 0.33rem;
+}
+li.detail-info p{
+	font-size: 0.2rem;
+	line-height: 0.33rem;
+}
+/*---vip内容 the end--*/
+/*--modal--*/
+#vipservermodal{
+	display:none;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+.servermbox{
+	background:#fff;
+	width:80%;
+	margin: auto;
+    text-align: center;
+    margin-top: 36%;
+	border-radius: 10px;
+}
+.servermbox h4{
+	padding:0.2rem 0;
+}
+.wxkfimg img{
+	width:50%;
+}
+.bluetip {
+    color: #0080ff;
+    font-size: 0.2rem;
+}
+.uptp img{
+	width:0.1rem;
+}
+.servermbox p{
+	padding-bottom:0.1rem;
+}
+a.qqnumber {
+    background: #eee;
+    border: 1px solid #ccc;
+    width: 44%;
+    display: block;
+    margin:0.15rem auto;
+    padding: 0.14rem;
+}
+.uptp {
+    font-size: 0.2rem;
+}
+.serverkonwbtn {
+    background: #fcd134;
+    border: none;
+    width: 100%;
+    padding: 0.2rem 0;
+    margin-top: 0.2rem;
+	font-size:0.24rem;
+    border-radius: 0px 0px 10px 10px;
+}

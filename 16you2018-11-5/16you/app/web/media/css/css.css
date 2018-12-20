@@ -1,0 +1,550 @@
+body{
+    background: rgb(255, 218, 68);
+}
+img{
+	max-width: 100%;
+}
+.vip_icon0{
+    background-position: 0px 0px;
+}
+.vip_icon1{
+    background-position: 0px -20px;
+}
+.vip_icon2{
+   background-position: 0px -40px;
+}
+.vip_icon3{
+   background-position: 0px -60px;
+}
+.vip_icon4{
+   background-position: 0px -120px;
+}
+.vip_icon5{
+   background-position: 0px -140px;
+}
+.vip_icon6{
+   background-position: 0px -180px;
+}
+.vip_icon7{
+   background-position: 0px -200px;
+}
+.vip_icon8{
+   background-position: 0px -220px;
+}
+.vip_icon9{
+   background-position: 0px -240px;
+}
+.vip_icon10{
+    background-position: 0px -260px;
+}
+.vip_icon_pic{
+    width: 44px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image:url(/media/images/vipicon.png);
+    background-repeat: no-repeat;
+}
+.gameContent{
+    position: relative;
+}
+.gameBanner{
+    width: 6.2rem;
+    height: 1.9rem;
+    margin: 0.1rem auto 0;
+}
+.gameBanner img{
+    border: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+.gameList{
+    border: 1px solid #826030;
+    border-radius: 0.2rem;
+    margin: 0.5rem 0.1rem;
+    background: #fff;
+    position: relative;
+    width: 96%;
+    display: inline-block;
+    padding-top: 0.36rem;
+}
+.serial{
+    width: 45%;
+    position: absolute;
+    top: -0.2rem;
+    left: 50%;
+    margin: 0 -22%;
+}
+.serial p{
+    border: 1px solid #826030;
+    margin: 0 auto;
+    border-radius: 1.1rem;
+    text-align: center;
+    width: 2.7rem;
+    line-height: 0.43rem;
+    background: #ffda44;
+    color: #000;
+    box-shadow: 0 2px 0 #ffda44;
+    font-size: 0.23rem;
+}
+.gameRank-data{ 
+    height: 0.6rem;
+     position: relative; 
+}
+.gameRank-data a{
+    line-height:0.4rem;
+    text-align: right;
+    font-size: 0.2rem;
+    color: #0084ff;
+    display: block;
+    float: right;
+    text-decoration: underline;
+    position: absolute;
+    right: 0.3rem;
+    top: 0;
+    z-index: 10;
+}
+.ranking{
+    margin: 0 0.2rem;
+	font-size:0;
+}
+.rankFirst,.rankSecond,.rankThird{
+    width: 33.3%;
+    display:inline-block;
+    margin-bottom: 0.2rem;
+}
+.rankFirst .rankHead{
+    width: 1.38rem;
+    height: 1.5rem;
+    margin-top: 10px;
+    background: url(../images/rank2.png)0 0 / 100% 100% no-repeat;;
+}
+.rankHead{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+.rankFirst em{
+    border-radius: 100%;
+    margin: 0.34rem auto 0;
+    width: 0.78rem;
+    height: 0.78rem;
+    display: block;
+    border: 0.051rem solid #fff;
+}
+.rankFirst em img{
+    height: 100%;
+    border-radius: 50%;
+}
+.rankFirst .rankHead p{
+    width: 1.4rem;
+    height: 0.3rem;
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 1px;
+    left: 0%;
+	padding-top: 0.05rem;
+    text-align: center;
+    background: url(../images/caidai.png) 0 0 / 100% 100% no-repeat;
+}
+.rankSecond .rankHead{
+    width: 1.8rem;
+    height: 1.9rem;
+    margin-top: -0.1rem;
+    background: url(../images/lightshield_transparent1.gif)0 0 / 100% 100% no-repeat;;
+}
+.rankSecond em{
+    border-radius: 100%;
+    margin: 0.49rem auto 0;
+    width: 0.78rem;
+    height: 0.78rem;
+    display: block;
+    border: 0.05rem solid #fff;
+}
+.rankSecond em img{
+    height: 100%;
+    border-radius: 50%;
+}
+.rankSecond .rankHead p{
+    width: 1.45rem;
+    height: 0.34rem;
+    font-size: 0.18rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0.25rem;
+    left: 12%;
+	padding-top: 0.05rem;
+    text-align: center;
+    background: url(../images/caidai.png) 0 0 / 100% 100% no-repeat;
+}
+.rankThird .rankHead{
+    width: 1.39rem;
+    height: 1.45rem;
+    margin-top: 0.2rem;
+    background: url(../images/rank3.png) 0 0 / 100% 100% no-repeat;
+}
+.rankThird em{
+    border-radius: 100%;
+    margin: 0.31rem auto 0;
+    width: 0.78rem;
+    height: 0.78rem;
+    display: block;
+    border: 0.05rem solid #fff;
+}
+.rankThird em img{
+    height: 100%;
+    border-radius: 50%;
+}
+.rankThird .rankHead p{
+    width: 1.4rem;
+    height: 0.3rem;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0.05rem;
+    left: 0%;
+	padding-top: 0.05rem;
+    text-align: center;
+    background: url(../images/caidai.png) 0 0 / 100% 100% no-repeat;
+}
+.rankName{
+   /*  width: 45%; */
+    font-size: 0.2rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #999;
+    text-align: center;
+    padding-top: 0.1rem;
+    overflow: hidden;
+}
+.rankName-1{
+    margin-top: -0.15rem;
+}	
+.name_box{
+    width: 100%;
+    max-width: initial;
+    display: block;
+    margin: 0 auto;
+	text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+.surplus{
+    border-top: 0.005rem solid #e1e1e1;
+}
+ul.surList {
+    font-size: 0;
+}
+.surList li{
+    display:inline-block;
+    border-bottom: 0.005rem  solid #e1e1e1;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0.02rem 0 0.02rem 0;
+    font-size: 0.22rem;
+	vertical-align: middle;
+}
+.sur_Number{ 
+    width: 15%;
+    float: left;
+    height: 1rem;
+    line-height: 1rem; 
+    font-size: 0.24rem;
+    color: #333;
+	text-align:center;
+}
+.sur_vip{
+    width: 60%;
+}
+.sur_size{
+    max-width: 85% !important;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+.integral{
+    width: 25%;
+}
+.integral_bottom{
+    line-height: 0.5rem
+}
+.integral_top{
+    width: 1.1rem;
+    background: #ff5647;
+    color: #fff;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.gameInfo{
+    border: 0.005rem solid #826030;
+    margin: 0 0.12rem 0.3rem;
+    border-radius: 0.2rem;
+    background: #fff;
+    line-height: 0.8rem;
+}
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.infoLeft{
+    padding: 0 0.1rem 0 0;
+    float: left;
+    margin-left: 0.2rem;
+}
+.infoLeft em{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.infoImg{
+    float: left;
+}
+.infoImg img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.infoName{
+    vertical-align: middle;
+    display: inline-block;
+	font-size: 0.24rem;
+}
+.infoLeft{
+    padding: 10px 10px 0 0;
+}
+.infoRight{
+    padding: 10px 10px 0 0;
+}
+.btn_list{
+    float: right;
+    margin: 0 5px 26px;
+    border-radius: 10px;
+    background: #fff;
+}
+#top_halo{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background: #ffd433;
+    border-radius: 2px;
+    display: block;
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin: 7px 0 0 10px;
+}
+.rankingList{
+    float: right;
+}
+.rankingList span{
+    line-height: 0.2rem;
+    font-size: 0.2rem;
+    color: #333;
+    display: block;
+    padding-top: 0.083rem;
+    text-align: center;
+}
+.rankingList a{
+    line-height: 0.2rem;
+    font-size: 0.2rem;
+    color: #0084ff;
+    text-decoration: underline;
+    padding-top: 8px;
+    display: block;
+}
+.gameRank{
+    border: 0.05rem solid #826030;
+    position: relative;
+    border-radius: 30px;
+    margin: 0.5rem 0.1rem;
+    padding: 25px 0.2rem 0.2rem;
+}
+.advtise{
+    line-height: 20px;
+    font-size: 14px;
+    color: #ff5647;
+}
+.activity p{
+    padding-left: 7px;
+    font-size: 14px;
+    color: #333;
+    line-height: 26px;
+}
+.activity p span{
+    margin-left: -7px;
+}
+.activity_rules {
+    margin-bottom: 0.3rem;
+}
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#282828;
+    border-width: 1px;
+    border-color: #826030;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.gridtable tr th{
+    background: #ffda44;
+    color: #282828;
+    border: 1px solid #826030;
+    font-weight: normal;
+    padding: 8px;
+}
+table.gridtable td {
+    text-align: center;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+.gameShare{
+    width: 90%;
+    height: 0.87rem;
+    border-radius: 0.1rem;
+    line-height: 0.87rem;
+    margin: 0.1rem auto;
+    text-align: center;
+    background: #ff5e39;
+    margin-bottom: 1.5rem;
+}
+#gameShareBtn{
+    text-decoration: none;
+    font-size: 0.25rem;
+    color: #fff;
+    display: block;
+}
+#rank_bg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,.6);
+    display: none;
+}
+.ptnList{
+    width: 94%;
+  /*   height: 324px; */
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 10000;
+    margin-top: 35%;    
+}
+.myselfInfo,.recently{
+    padding: 0.1rem 0.2rem;
+    margin-bottom: 0.1rem;
+}
+.ptnList h1 {
+    display: block;
+    height: 14%;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.7rem;
+}
+.ptnList h4 {
+    color: #333;
+    font-size: 0.3rem;
+    border-left: 3px solid #fcb334;
+    padding-left: 5px;
+    line-height: 15px;
+    font-weight: bold;
+    height: 15px;
+}
+.recently p{
+    width: 33.3%;
+    float: left;
+}
+.recently em{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+}
+.recently span{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    padding: 0.1rem 0;
+}
+.gameatt{
+    width: 200px;
+    overflow: hidden;
+    margin: 10px auto 0;
+}
+.myselfInfo p{
+        line-height: 18px;
+    font-size: 12px;
+    color: #333;
+    padding: 6px 10px 0;
+}
+.pem{
+	font-style: normal;
+    color: #999;
+}
+.knowBtn{
+    height: 48px;
+    background: #fcd134;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.myselfInfo{
+	margin-bottom: 0.3rem;
+}
+.knowBtn a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+#share_fr{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,.8);
+    display: none;
+}
+#share_fr em{
+    width: 60px;
+    height: 91px;
+    display: block;
+    margin: 20px 25px 0 0;
+    float: right;
+}
+.share_dear{
+    width: 100%;
+    line-height: 28px;
+    margin-top: 130px;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+}

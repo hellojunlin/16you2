@@ -1,0 +1,497 @@
+#personal-center{
+	background-color: #fff;
+	padding:0.17rem 0.25rem;
+    margin-bottom: 0.085rem;
+}
+.personal_head,.infobox,.currency{
+	display: inline-block;
+	vertical-align: middle;
+}
+.infobox {
+    margin-left: 0.083rem;
+}
+.personal_head img{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+#menubox{
+	background-color: #fff;
+	width: 100%;
+    float: left;
+    margin-bottom: 0.08rem;
+}
+.game_list {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #eceaea;
+    padding: 0.25rem 0;
+}
+ul.listul{
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.listul li {
+	width:33.3%;
+    text-align: center;
+}
+.centerimg{
+    width: 0.67rem;
+    height: 0.67rem;
+    display: block;
+    background-image: url(/media/images/centericon.png); 
+    background-repeat: no-repeat;
+    background-size: 400%;
+    margin: auto;   
+}
+.cicon01{
+    background-position: 0 0;
+}
+.cicon02{
+    background-position: 33% 0;
+}
+.cicon03{
+    background-position: 67% 0;
+}
+.cicon04{
+    background-position: 100% 0;
+}
+.listul li p {
+    color: #333;
+    font-size: 0.2rem;
+}
+
+.vip_icon {
+    width: 44px;
+    height: 16px;
+    vertical-align: bottom;
+    display: inline-block;
+    background-image: url(/media/images/vipicon.png);
+    background-repeat: no-repeat;
+}
+.nametext{
+	color:#ff3000;
+}
+.infortext {
+    padding-top: 0.083rem;
+    font-size: 0.22rem;
+    color: #333;
+}
+.current_integral{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0.25rem 0;
+}
+.current_integral::before{
+	position: absolute;
+	left: 50%;
+	width: 1px;
+	content: '';
+	background: #e1e1e1;
+	height: 0.6rem;
+}
+.integral,.experience{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+span.i_score {
+    color: #fa6f2a;
+    font-size: 0.3rem;
+}
+.e_score{
+	color: #999;
+	font-size: 0.2rem;
+}
+.e_score i{
+	font-style: normal;
+	color: #6bd2f5;
+	font-size: 0.3rem;
+}
+.integral p,.experience p{
+	font-size: 0.2rem;
+	color: #999;
+	padding-top: 0.05rem; 
+}
+div#task {
+    background-color: #fff;
+    clear: both;
+    margin-bottom: 1.2rem;
+}
+.tasktitle {
+    padding: 0.17rem;
+}
+.tasktitle span{
+	color: #ff6659;
+	font-size: 0.22rem;
+	padding-left: 0.085rem;
+}
+.game_list_box {
+    width: auto;
+}
+li.game_img {
+    width: 10%;
+}
+ li.game_start{
+ 	width: 1.1rem;
+ }
+.everyimg{
+    width: 0.4rem;
+    height: 0.4rem;
+    display: block;
+    background-image:url(/media/images/everydayicon.png);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    margin: auto;
+}
+.eicon01{
+    background-position: 0 0;
+}
+.eicon02{
+    background-position: 33% 0;
+}
+.eicon03{
+    background-position: 67% 0;
+}
+.eicon04{
+    background-position: 100% 0;
+}
+li.game_describe {
+    width: 60%;
+}
+li.game_start a {
+    display: inline-block;
+    background: #fcd134;
+    border: 1px solid #fcd134;
+    color: #333;
+    width: 1.1rem;
+    line-height: 0.45rem;
+    text-align: center;
+    height: 0.45rem;
+    border-radius: 4px;
+    font-size: 0.2rem;
+} 
+.quit{
+	height: 0.83rem;
+    line-height: 0.83rem;
+    margin-top: 0.083rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: #666;
+	margin-bottom: 1rem;
+}
+/*---客服模态框--*/
+div#servemodal {
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+.servebox {
+    width: 80%;
+    background: #fff;
+    margin: 2rem auto 0;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+h1.servetitle {
+    font-size: 0.3rem;
+    padding-top: 0.2rem;
+}
+.closeimg{
+	position: absolute;
+	top: 0.2rem;
+	right: 0.17rem;
+	width: 0.25rem;
+	height: 0.25rem;
+}
+.servebox h5{
+	font-size: 0.24rem;
+	padding:0.3rem 0 0.17rem;
+	font-weight: normal;
+}
+.active_num a{
+	display: block;
+	width: 60%;
+	text-decoration: none;
+	color: #333;
+	background-color: #f4f4f4;
+	padding: 0.17rem 0;
+	margin: auto;
+}
+.servebox h2{
+	font-size: 0.24rem;
+    font-weight: normal;
+    padding: 0.17rem 0 0.1rem;
+}
+.servebox h2 img{
+	width: 0.1rem;
+}
+.ewm_box img{
+	width: 2rem;
+	height: 2rem;
+}
+.ewm_box p{
+	font-size: 0.2rem;
+}
+.receive_btn{
+    clear: both;
+	background-color: #fcd134;
+	margin-top: 0.35rem;
+    border-radius: 0 0 10px 10px;
+}
+.receive_btn a{
+	color: #333;
+    display: block;
+    padding: 0.2rem;
+}
+/*---the end----*/
+/*--提示框 --*/
+#messigemodal{
+    position: absolute;
+    top: 40%;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 35%;
+    margin: auto; 
+    left: 50%;
+    margin-left: -15%;
+    text-align: center;
+    border-radius:6px;
+    padding: 0.25rem 0;
+}
+
+/*---签到成功模态框----*/
+#successmodal{
+    position: absolute;
+    top: 40%;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 35%;
+    margin: auto;
+    left: 50%;
+    margin-left: -15%;
+    text-align: center;
+    border-radius:6px;
+    padding: 0.25rem 0;
+}
+.integralbox{
+    padding: 0.25rem 0 0;
+}
+span.intergral-num{
+    color: #ff3000;
+    font-size: 0.4rem;
+}
+/*---每日首充模态框----*/
+#chargemodal,#exchagemodal {
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+.active_num img{
+    width: 30%;
+}
+.re_title{
+   border-left: 3px solid #fcb334;
+    text-align: left;
+    padding-left: 0.17rem; 
+}
+.gamelist{
+    float: left;
+    width: 100%;
+    margin: 0.17rem 0 0.3rem;
+}
+.gamelist ul{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.gamelist ul li{
+    width: 25%;
+    float: left;
+}
+.gamelist ul li img{
+   width: 0.8rem;
+   height: 0.8rem;
+}
+.gamelist ul li p{
+    font-size: 0.2rem;
+}
+.eximg{
+    margin-top: 0.3rem;
+}
+.eximg img{
+    width: 25%;
+}
+
+/**
+新增
+**/
+ul.listul{
+    list-style: none;
+    font-size:0;
+}
+.listul li {
+    width: 25%;  
+    display:inline-block;
+    text-align: center;
+    position: relative;
+}
+.tipspoint {
+    position: absolute;
+    top: 0;
+    right: 0.4rem;
+    background: #f30;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.listul li img {
+    width: 0.5rem;
+}
+.personalicon li{
+	margin-bottom: 0.2rem;
+}
+.current_integral{
+	position: relative;
+	font-size: 0;
+	padding: 0.25rem 0;
+}
+.current_integral::before{
+	position: absolute;
+	left: 50%;
+	width: 1px;	
+	content: '';
+	background: #e1e1e1;
+	height: 0.6rem;
+}
+.integral,.experience{
+	width: 50%;
+	display:inline-block;
+	text-align: center;
+}
+.progressbar {
+    font-size: 0.18rem;
+    color: #333;
+}
+.progressbar p {
+    width: 66px;
+    height: 4px;
+    background: #ededed;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+}
+.progressbar p span {
+    height: 4px;
+    background: #fcd134;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.red_num {
+    color: #ed1b23;
+    font-style: normal;
+}
+.closeimg{
+	position: absolute;
+	top: 0.2rem;
+	right: 0.17rem;
+	width: 0.25rem;
+	height: 0.25rem;
+	z-index: 10;
+}
+#chargemodal,#exchagemodal,#bindmodal {
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+.bind-phone{
+    width: 100%;
+    height: 108px;
+    position: relative;
+    background: #ffda44;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bind-phone img{
+    position: absolute;
+    top: -1.4rem;
+    width: 2.4rem;
+    left: 50%;
+    margin-left: -1.2rem;
+}
+.bind_btn{
+    padding: 0.3rem  0;
+}
+.bindbtn{
+    background: #ee725a;
+    color: #fff;
+    border-radius: 20px;
+    display: block;
+    width: 60%;
+    margin:auto;
+    padding: 0.17rem 0;
+}
+.h_l{
+    line-height: 0.45rem;
+}
+span.point {
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #ff0000;
+    display: inline-block;
+    position: absolute;
+    top: 0.1rem;
+    right: 30%;
+}
+/**--个人中心新样式--**/
+ul.game_ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.p_game_img{
+    padding-right: 0.17rem;
+}
+.p_game_img img{
+    width: 0.5rem;
+    opacity: 0.9;
+}
+.game_describe>p>span{
+    vertical-align: middle;
+    font-size: 0.26rem;
+}
+.task_list_box {
+    margin-bottom: 1.2rem;
+}
+.currency {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffa509;
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.75rem;
+}

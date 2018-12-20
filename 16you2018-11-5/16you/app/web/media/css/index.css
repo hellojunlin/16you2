@@ -1,0 +1,451 @@
+body {
+    font-family: 苹方;
+}
+#warp_main {
+    position: relative;
+   /* min-height: 680px;*/
+}
+.warp_mainbox{
+  min-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}	
+.dr_header_box{
+	height: 60px;
+	background: #fff;
+	border-bottom: 1px solid #ffc64b;
+}
+.dr_header{
+	width: 1000px;
+	height: 60px;
+	margin:0 auto;
+	position: relative;
+	font-size: 14px;
+    color: #666;
+}
+.logo{
+    width: 220px;
+	height: 39px;
+	cursor: pointer;
+	margin-top: 8px;
+	float: left;
+}
+.di-img {
+    margin-top: -39px;
+}
+.header_right{
+    position: absolute;
+    width: inherit;
+    float: left;
+    top: 0;
+    left: 780px;
+    height: 60px;
+    line-height: 60px;
+    max-width: 400px;
+    overflow: hidden;
+    background: #fff;
+}
+.header_right a{
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	margin-top: 10px;
+}
+.login,.collection{
+	float: left;
+}
+.login em,.collection em{
+	height: 30px;
+	display: inline-block;
+    margin-right: 5px;
+}
+.login img,.collection img{
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+.dr_contanier{
+	width: 1000px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -500px;
+}
+.warm_bg{
+    background: #F8C841 url(../images/bg16_1.png) 0 0 / 1400px 560px no-repeat;
+	z-index: -2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+    width: 100%;
+}
+.content_left{
+	position: absolute;
+    left: 0;
+    top: 20px;
+}
+.service{
+	width: 218px;
+    height: 310px;
+	border:2px solid #000;
+	background: #4bb9ff;
+}
+.service p{
+	color: #fff;
+    top: 0px;
+    line-height: 22px;
+    font-size: 16px;
+    margin: -8px -17px 0px 68px;
+    position: relative;
+    height: 94px;
+    text-align: center;
+}
+.service b{
+    position: absolute;
+    top: -10px;
+    left: -76px;
+    display: block;
+}
+.right_code{
+	width: 218px;
+    height: 278px;
+    border: 2px solid #333;
+    background: #ff6147;
+}
+.content_right{
+	position: absolute;
+	right: 0;
+    top: 20px;
+	width: 218px;		
+}
+.right_code p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+}
+.recommended{
+    border: 2px solid #333;
+    background: #fff;
+    padding: 10px 12px;
+    margin: 10px 2px 3px 1px;
+    width: 260px;
+    overflow: hidden;
+}
+.re_title{
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    padding: 0 4px;
+}
+.matterList {
+    padding: 3px;
+    overflow: hidden;
+    margin: 3px 0;
+    cursor: pointer;
+}
+.listImg,.major,.start_game{
+	float: left;
+}
+.listImg{
+	width: 20%;
+}
+.major{
+	width: 40%;
+}
+.start_game{
+    width: 21%;
+    line-height: 36px;
+}
+.listImg span{
+	width: 40px;
+	height: 40px;
+	display: block;
+}
+.listImg img{
+	vertical-align: top;
+}
+.major{
+	width: 50%;
+    margin-right: 10px;
+}
+.major h3{
+	font-size: 14px;
+	color: #333;
+}
+.major p{
+	font-size: 12px;
+    color: #666;
+    white-space: nowrap;
+    line-height: 26px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.start_game{
+	font-size: 13px;
+}
+.main_phone{
+	background: url(../images/phone_bg.png) 0 0 / 100% 100% no-repeat;
+    position: absolute;
+    top: 0;
+/*    margin-left: -230px;*/
+    z-index: 9;
+   /*  height: 568px;
+    width: 354.444px;
+    margin-left: -177.222px; */
+}
+.main_po{
+	left: 50%;
+}
+.main_cn{
+	background: 0;
+	position: absolute;
+    top: 0;
+    z-index: 9;
+        height: 667px;
+    width: 375.444px;
+    margin-left: -177.222px;
+    top: -51px;
+}
+.full_screen{
+	width: 16px;
+    font-size: 14px;
+    color: #fff;
+    background: #4bb9ff;
+    position: absolute;
+    top: 80px;
+    right: -32px;
+    padding: 5px 8px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+.full_screen a{
+	color:#fff;
+}	
+.full_screen em{
+	width: 16px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+    background: url(../images/screen_01.png) no-repeat;
+    background-size: 100%;
+}
+.main_list{
+	position: absolute;	
+    top: 50px;
+    left: 15px;
+    right: 15px;
+    bottom: 40px;
+    background: #f0eff5;
+    border: 1px solid #c3c3c3;
+}
+#yoyo{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* z-index: 18; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.yo1{
+    width: 105%;
+}
+.footer{
+    background: #333;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner a{
+	font-size: 15px;
+    color: #999;
+    display: block;
+    text-align: center;
+}
+.banner ul{
+	width: 474px;
+    margin: 7px auto;
+    height: 6px;
+}
+.banner ul li{
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+.banner ul li a{
+	cursor: pointer;
+}
+.banner p{
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+    padding-top: 10px;
+    cursor: default;
+}
+.hery{
+	background: #000;
+	z-index: 7;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+.game_play {
+    width: 220px;
+    background: #fff;
+    border: 2px solid #333;
+    margin: 12px 0 20px -2px;
+    float: left;
+}
+.game_play h1 {
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    padding: 0 15px;
+}
+.game_play ul li {
+    width: 33.3%;
+    float: left;
+}
+.game_play ul li a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: 5px auto;
+}
+.game_play img{
+    vertical-align:top;
+}
+.game_play ul li b {
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    margin: 0 5px 10px;
+    font-weight: normal;
+    display: block;
+}
+.sign_name {
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.sign_name a {
+    font-size: 14px;
+    color: #ff6147;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.fl {
+    float: left;
+}
+/*--全屏模式--*/
+.full_screen_box {
+    background: #000;
+}
+.full_screen_box .dr_header_box,.full_screen_box .dr_contanier,.full_screen_box .footer {
+	display:none;
+}
+.full_screen_box .main_phone{
+	background:0;
+}
+.full_screen_box .main_list{
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    width: 101%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;	
+}
+.full_screen_box .full_screen em{
+	background: url(/media/images/screen_02.png) no-repeat;
+}
+.full_screen_box .full_screen {
+    background: rgba(75,185,255,.5);
+    color: #aabac6;
+}
+.full_screen_box .full_screen a{
+    color: #aabac6;
+}
+.closebtn{
+	display:none;
+}
+.martop{
+	margin-top: 44px;	
+}
+/*最近在玩*/
+ .game_play {
+    width: 220px;
+    background: #fff;
+    border: 2px solid #333;
+    margin: 12px 0 20px -2px;
+    float: left;
+}
+.game_play h1 {
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    padding: 0 15px;
+}
+.game_play ul li {
+    width: 33.3%;
+    float: left;
+}
+.game_play ul li a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: 5px auto;
+}
+.game_play img{
+    vertical-align:top;
+}
+.game_play ul li b {
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    margin: 0 5px 10px;
+    font-weight: normal;
+    display: block;
+}
+.sign_name {
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.sign_name a {
+    font-size: 14px;
+    color: #ff6147;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.fl {
+    float: left;
+}
+/* 公告栏样式 */
+.reconTip h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.2rem;
+}
+.reconTip p {
+    font-size: 0.16rem;
+    line-height: 0.246rem;
+    padding-top: 0.05rem;
+}

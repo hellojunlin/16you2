@@ -1,0 +1,52 @@
+.selectdivbox{
+	width:130px;
+	position: relative;
+}
+.btntxt{
+	width:80%;
+	display: inline-block;
+	overflow: hidden;
+}
+.hidden-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+	width:100%;
+	z-index: -1;
+}
+.selectbtn{
+	width:100%;
+	background-color: #fff;
+	border:1px solid #ccc !important;
+	border-radius: 4px;
+	height: 34px;
+}
+.caret{
+	float: right;
+	border-width: 5px 5px 0;
+	border-bottom-width: 0;
+	margin-top: 10px;
+}
+.list-unstyled li,.no-search-results{
+	width:100%;
+	padding: 6px 5px;
+	word-break:break-all;  
+	font-weight: bold;
+}
+.list-unstyled li:hover{
+	cursor: pointer;
+	background-color:#1e90ff;
+	color:#fff;
+}
+.list-to-filter{
+	max-height: 300px;
+	overflow-y:auto;
+}
+.no-search-results{
+	display: none;
+	color: #f30;
+}
+.dropdown-menu {
+    min-width: 100% !important;
+}

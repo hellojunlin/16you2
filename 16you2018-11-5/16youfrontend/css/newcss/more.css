@@ -1,0 +1,53 @@
+.new-content{
+	background: #fff;
+}
+.new-c-msg .nc-msg-text .m-text-hot img{
+	padding-right: 0.05rem;
+}
+.top-title{
+	background: #fff;
+	padding: 0.2rem 0.1rem 0.1rem;
+}
+.tabul{
+	display: flex;
+	display: -webkit-flex;
+	border: 1px solid #f47954;
+	border-radius: 4px;
+}
+.tabul li{
+	width: 50%;
+	text-align: center;
+	color: #f47954;
+	padding: 0.13rem 0;
+}
+.tabul li:nth-child(2){
+	border-left: 1px solid #f47954;
+    border-right: 1px solid #f47954;
+}
+.tab-active{
+	background: #f47954;
+	color: #fff !important;
+}
+.toTop {
+	display: none;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;
+}
+.toTop img{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid rgba(244,121,84,0.5);
+	padding: 0.1rem;
+}
+.warmtips{
+	color:#999;
+	text-align:center;
+	padding:0.15rem 0;
+	font-size:0.22rem;
+}
+.marginbottom{
+	margin-bottom:1rem;
+}

@@ -1,0 +1,59 @@
+/*公共样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	color: #000;
+/*    background-color: #f7f7f7;*/
+    background: #fff;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 苹方;
+    font-size: 16px;
+    min-width: 320px;
+    max-width: 640px;
+}
+.cl{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+.bg_white{
+    background-color: #fff;
+}
+img{
+    max-width: 100%;
+    border: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+i{
+    font-style: normal;
+}
+.rules_details {
+    padding: 0.2rem;
+    margin-top: 0.1rem;
+}
+.illustrate h1 {
+    font-size: 18px;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+}
+.illustrate_box h2 {
+    font-size: 16px;
+    color: #fa6f2a;
+    font-weight: normal;
+    padding: 0 15px;
+}
+.illustrate_box p {
+    font-size: 14px;
+    color: #333;
+    padding: 10px 12px;
+    line-height: 25px;
+}

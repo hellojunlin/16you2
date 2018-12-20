@@ -1,0 +1,536 @@
+﻿* {
+	margin:0;
+	padding:0;
+}
+@media screen and (min-width:320px) {
+	html {
+	font-size:50px;
+}
+}@media screen and (min-width:360px) {
+	html {
+	font-size:56px;
+}
+}@media screen and (min-width:400px) {
+	html {
+	font-size:63px;
+}
+}@media screen and (min-width:440px) {
+	html {
+	font-size:69px;
+}
+}@media screen and (min-width:480px) {
+	html {
+	font-size:75px;
+}
+}html {
+	font-size:15.625vw;
+}
+@media screen and (min-width:640px) {
+	html {
+	font-size:100px;
+}
+}body {
+	min-width:320px;
+	max-width:640px;
+	width:100%;
+	height:auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+	top:0;
+	left:0;
+	bottom:0;
+	margin:auto;
+	font-size:0.24rem;
+	background-color:#f0eff5;
+	font-family:Arial,Helvetica,sans-serif,'华文细黑';
+}
+.cl {
+	clear:both;
+}
+ul {
+	list-style:none;
+}
+.bg_white {
+	background-color:#fff;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+.hid {
+	display:none;
+}
+.blo {
+	display:block;
+}
+.vip_icon0 {
+	background-position:0 0;
+}
+.vip_icon1 {
+	background-position:0 -20px;
+}
+.vip_icon2 {
+	background-position:0 -40px;
+}
+.vip_icon3 {
+	background-position:0 -60px;
+}
+.vip_icon4 {
+	background-position:0 -100px;
+}
+.vip_icon5 {
+	background-position:0 -140px;
+}
+.vip_icon6 {
+	background-position:0 -180px;
+}
+.vip_icon7 {
+	background-position:0 -200px;
+}
+.vip_icon8 {
+	background-position:0 -220px;
+}
+.vip_icon9 {
+	background-position:0 -240px;
+}
+.vip_icon10 {
+	background-position:0 -260px;
+}
+div#bottom_menu {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	left:0;
+	background:#fff;
+	border-top:1px solid #eee;
+	height:0.9rem;
+	overflow:hidden;
+	box-shadow:0 0 6px rgba(79,79,80,.35);
+	z-index:100;
+	font-size:0;
+}
+#bottom_menu a {
+	display:block;
+	/*width:25%;*/
+	/*width:33.33%; */
+	width: 20%; 
+	display:inline-block;
+	text-align:center;
+	color:#000;
+	position:relative;
+} 
+a.on em {
+	color:#f2ca3b;
+}
+#bottom_menu a em {
+	font-style:normal;
+	font-size:0.2rem;
+	display:block;
+}
+#bottom_menu a i {
+	width:0.5rem;
+	height:0.4rem;
+	margin:5px auto;
+	display:block;
+}
+#bottom_menu  a i.game_icon {
+	background:url(/images/game_icon_v2.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a.on i.game_icon {
+	background:url(/images/game_icon_on_v2.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu  a i.package_icon {
+	background:url(/images/package_icon_v2.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a.on i.package_icon {
+	background:url(/images/package_icon_on_v2.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a i.center_icon {
+	background:url(/images/center_icon_v2.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a.on i.center_icon {
+	background:url(/images/center_icon_on_v2.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu  a i.gamesmall_icon {
+    background: url(/images/noyo.png) no-repeat;
+    background-size:100%;
+    /*background-size: 160%;
+    background-position: -4px -10px*/;
+}
+#bottom_menu a.on i.gamesmall_icon {
+    background: url(/images/smallyo_an.png) no-repeat;
+    background-size:100%;
+    /*background-size: 160%;
+    background-position: -4px -10px;*/
+}
+#bottom_menu a i.active_icon{
+	background:url(/images/huodong.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a.on i.active_icon{
+	background:url(/images/huodong_on.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a i.leisure_icon{
+	background:url(/images/xiuxian.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a.on i.leisure_icon{
+	background:url(/images/xiuxian_on.png) no-repeat;
+	background-size:100%;
+}
+#bottom_menu a i.eleven_icon{ 
+	background:url(/images/eleven.png) no-repeat;
+	background-size:100%; 
+}
+#bottom_menu a.on i.eleven_icon{
+	background:url(/images/elevenon.png) no-repeat;
+	background-size:100%; 
+} 
+#bottom_menu a i.mall_icon{ 
+	background:url(/images/shangcheng.png) no-repeat;
+	background-size:100%; 
+}
+#bottom_menu a.on i.mall_icon{
+	background:url(/images/shangcheng_on.png) no-repeat;
+	background-size:100%; 
+} 
+.title {
+	padding:0.08rem 0.17rem 0.08rem 0;
+}
+.title span {
+	border:2px solid #fcb334;
+	margin-right:0.17rem;
+}
+.game_list {
+	border-bottom:1px solid #eceaea;
+	background-color:#fff;
+}
+.game_list_box {
+	border-bottom:1px solid #eceaea;
+	margin:0 0 0 0.17rem;
+	position:relative;
+}
+ul.ulwidth {
+	width:85%;
+	display:inline-block;
+}
+div.gul {
+	width:15%;
+	display:inline-block;
+}
+li.liwidth1 {
+	width:20% !important;
+}
+li.liwidth2 {
+	width:80% !important;
+}
+div.game_start {
+	position:absolute;
+	top:0.35rem;
+	right:0.17rem;
+	z-index:2;
+}
+ul.listul,ul.c_tabsul {
+	list-style:none;
+	width:100%;
+	font-size:0;
+}
+ul.c_tabsul {
+	display:inline-block;
+}
+ul.game_ul {
+	padding:0.1rem 0;
+	position:relative;
+	font-size:0;
+}
+ul.c_tabsul {
+	border-bottom:1px solid #eceaea;
+}
+.listul li {
+	display:inline-block;
+	text-align:center;
+}
+.recentlyimg {
+	width:0.67rem;
+	height:0.67rem;
+	border-radius:6px;
+}
+.listul>li>p {
+	color:#333;
+	font-size:0.22rem;
+	padding:0.05rem 0 0.1rem;
+	max-width:100%;
+	word-wrap:normal;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+ul.c_tabsul li {
+	position:relative;
+	display:inline-block;
+	width:25%;
+	text-align:center;
+}
+.contentbox {
+	clear:both;
+	margin-top:0.1rem;
+}
+ul.news_ul {
+	position:relative;
+}
+ul.game_ul li {
+	display:inline-block;
+	vertical-align:bottom;
+}
+ul.news_ul li {
+	display:inline-block;
+	vertical-align:text-top;
+}
+ul.c_tabsul>li>a {
+	display:inline-block;
+	height:0.5rem;
+	line-height:0.5rem;
+	padding:0 0.083rem;
+	font-size:0.24rem;
+}
+.c_active a {
+	color:#f50;
+	font-weight:bold;
+	border-bottom:2px solid #f50;
+}
+#recentlyplay .listul li.game_start {
+	width:20%;
+}
+li.game_img,li.game_start {
+	width:15%;
+}
+li.game_describe {
+	width:68%;
+}
+ul.game_ul>li.game_start {
+	position:absolute;
+	right:0.17rem;
+	top:0.3rem;
+}
+ul.news_ul>li.game_start {
+	position:absolute;
+	right:0;
+	top:0.22rem;
+}
+li.game_img img {
+	width:0.85rem;
+	height:0.85rem;
+	border-radius:6px;
+}
+.c_tabsul>li>span.point {
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#ff0000;
+	display:inline-block;
+	position:absolute;
+	top:0.1rem;
+	right:30%;
+}
+.game_describe>p>span {
+	vertical-align:bottom;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	max-width:92%;
+}
+span.game_name {
+	font-size:0.28rem;
+}
+span.game_name i {
+	font-style:normal;
+	font-size:0.24rem;
+	color:#666;
+}
+p.gift {
+	font-size:0.22rem;
+	padding-top:0.05rem;
+	line-height:0.35rem;
+}
+.hot,.newgame,.package,.sole,.thsfirst,.exclusive {
+	border-radius:2px;
+	padding:0 2px;
+	font-size:0.2rem;
+	margin-right:0.08rem;
+	display:inline-block;
+}
+.hot {
+	color:#fe484e;
+	border:1px solid #fe484e;
+}
+.newgame {
+	color:#f9bc3a;
+	border:1px solid #f9bc3a;
+}
+.boutique {
+	color:#fe484e;
+	border:1px solid #fe484e;
+}
+span.package {
+	color:#2697fc;
+	border:1px solid #2697fc;
+	border-radius:2px;
+	padding:0 2px;
+	font-size:0.2rem;
+}
+.package {
+	color:#5372d5;
+	border:1px solid #5372d5;
+}
+.sole {
+	color:#7030a0;
+	border:1px solid #7030a0;
+}
+.thsfirst {
+	color:#ee725a;
+	border:1px solid #ee725a;
+}
+.exclusive {
+	color:#8d9dde;
+	border:1px solid #8d9dde;
+}
+p.describe {
+	color:#666;
+	font-size:0.2rem;
+	padding-top:0.17rem;
+	max-width:92%;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-wrap:normal;
+	display:inline-block;
+	overflow:hidden;
+}
+p.p_gamename {
+	max-width:90%;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-wrap:normal;
+	overflow:hidden;
+}
+a.start {
+	cursor:pointer; 
+	display:inline-block;
+	border:1px solid #999;
+	color:#333;
+	padding:0.083rem 0.17rem;
+	border-radius:4px;
+	font-size:0.22rem;
+}
+a.receive {
+	display:inline-block;
+	color:#333;
+	background:#fcd134;
+	padding:0.083rem 0.17rem;
+	border-radius:4px;
+	font-size:0.26rem;
+}
+a.ad {
+	border:1px solid #fe484e;
+	padding:0.05rem 0.1rem;
+	border-radius:2px;
+	font-size:0.2rem;
+	color:#fe484e;
+}
+a.gray_lab {
+	color:#999;
+	border:1px solid #999;
+}
+.game_p {
+	max-width:100%;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-wrap:normal;
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:middle;
+}
+.news_ul {
+	padding:0.2rem 0;
+}
+.time {
+	color:#666;
+}
+p.describeno {
+	color:#999;
+	text-align:center;
+	font-size:0.3rem;
+	padding:20% 0;
+}
+.tmodel {
+	text-align:center;
+	color:#666;
+	font-size:0.2rem;
+	padding:0.1rem 0;
+}
+.game_name {
+	display:block;
+}
+#cnzz_stat_icon_1262417664 {
+	opacity:0;
+}
+/*--抢红包弹框--*/
+ .actpromoal{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 101;
+}
+.imporimg{
+	width:90%;
+}
+.actprobox{
+	text-align: center;
+	margin-top: 20%;
+	position: relative;
+}
+.colseactpro {
+    position: absolute;
+    top: 0;
+    right: 1.2rem;
+    width: 0.5rem;
+}
+.intobtn {
+	cursor:pointer;
+    border: none;
+    padding: 0.2rem 0;
+    color: #fff;
+    background: #ff0000;
+    border-radius: 50%;
+    width: 2rem;
+    border-radius: 50px;
+    font-size: 0.28rem;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+} 
+/*--抢红包弹框end--*/ 
+.redpoint,.tipspoint {
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: red;
+    position: absolute; 
+    top: 0;
+    right: 0.45rem;
+}
+body.modal-open {
+    position: fixed;
+    width: 100%;
+    height: auto;
+}

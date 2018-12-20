@@ -1,0 +1,190 @@
+.jfimg{
+    width: 0.6rem; 
+    height: 0.5rem;
+    display: block;
+   background-image: url(/media/images/jficon.png);
+   background-size: 300%;
+   background-repeat: no-repeat;
+   margin: auto;
+} 
+.jficon01{
+    background-position: 0 0 ;
+}
+.jficon02{
+    background-position: 50% 0;
+}
+.jficon03{
+    background-position: 100% 0;
+}
+i{
+    font-style: normal;
+}
+/* banner滑屏 */
+#slideBox{
+	position:relative;
+}
+.picScroll-left .bd ul{
+    overflow: hidden;
+    zoom: 1;
+    width: 727px;
+    left: -2px;
+     position: relative; 
+     overflow: hidden;
+}
+.picScroll-left .bd ul li {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 2px 10px;
+    float: left;  
+}
+.swiper-pagination{
+    bottom:0.1rem;
+    right: 0.15rem;
+}
+.swiper-pagination span{
+    margin-right: 0.11rem;
+}
+.swiper-pagination-bullet-active{
+    background: #fcb334!important;
+}
+.storeNav{
+    padding: 0.2rem 0.3rem;
+    background: #fff;
+    height: 1rem;
+}
+ul.navList {
+    font-size: 0;
+}
+.navList li{
+    width: 50%;
+    display:inline-block;
+    position: relative;
+}
+.navList li a{
+	text-decoration:none;
+	color:#000;
+}
+.navList em{
+    width: 0.6rem;
+    display: block;
+    margin: 0 auto;
+}
+.navList span{
+    display: block;
+    text-align: center;
+    line-height: 0.55rem;
+    font-size: 0.23rem;
+}
+.mall_page{
+    background: #fff;
+    padding: 0.01rem 0.09rem;
+    margin: 0.1rem auto 1rem;
+	padding-bottom: 0.3rem; 
+}
+.mall_notice{
+    height: 0.45rem;
+    line-height: 0.45rem;
+    margin: 0.1rem 0.001rem;
+    border: 1px solid #f57b28;
+    border-radius: 2px;
+    font-size: 0.23rem;
+    color: #333;
+    background: #fefced;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+}
+.mall_notice em{
+    float: left;
+    display: block;
+    padding: 0 5px 0 10px;
+	position: absolute;
+}
+.mall_notice em img{
+    width: 0.27rem;
+    height: 0.27rem;
+}
+.notice_content{
+     white-space:nowrap;
+	 margin-left: 0.7rem;
+}
+.notice_content i{
+    color: #fa6f2a;
+}
+.mall_details{
+     overflow: hidden; 
+}
+.mall_box{
+    width: 47.8%;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin: 0.05rem;
+    padding-bottom: 0.2rem;
+    display:inline-block;
+}
+.mall_box em{
+    height: 1.4rem;
+    overflow: hidden;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+} 
+.mall_box img{
+	width:100%;
+}
+.mall_size{
+    padding: 0.1rem;
+}
+.mall_size h1{
+    font-size: 0.27rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-spacing: normal;
+    line-height: 0.6rem;
+    overflow: hidden;
+    font-weight: normal;
+}
+.mall_size span{
+    float: right;
+    font-size: 0.2rem;
+    display: block;
+    padding-right: 0.1rem;
+}
+.mall_size span i{
+    font-style: normal;
+    color: #536dfe;
+    vertical-align: middle;
+}
+.mall_size b{
+    line-height: 12px;
+    font-weight: normal;
+    font-size: 0.24rem;
+    color: #fa6f2a;
+    float: left;
+    padding-top: 0.06rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.mall_box{
+		width: 47.5%;
+	}
+}
+.mar_right_sm2{
+    margin-right: 0.2rem
+}
+.nowSpan{
+	white-space:normal
+}
+#marquee li{
+	height:30px;
+	line-height: 30px;
+	margin:0;
+}
+/*公告栏滚动CSS*/
+.mt_fly {
+     
+    height: 0.58rem;
+    background: #eee;
+    position: absolute;
+    opacity: 0.01;
+}
